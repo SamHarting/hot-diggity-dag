@@ -1,26 +1,34 @@
 version: 2
 
 seeds:
-  node_color: "#e1ad01" # mustard yellow
+  +docs:
+    node_color: "#e1ad01" # mustard yellow
 
 models:
-  node_color: "#995f4c" # butter dog brown
+  +docs:
+    node_color: "#995f4c" # butter dog brown
       
 snapshots:
-  node_color: "#cc2522" # ketchup red
+  +docs:
+    node_color: "#cc2522" # ketchup red
   
 sources:
-  node_color: "#ede5d2" # hotdog bun gold
+  +docs:
+    node_color: "#ede5d2" # hotdog bun gold
   
 tests:
-  node_color: "#a57f01" # relish green
+  +docs:
+    node_color: "#a57f01" # relish green
   
 analyses:
-  node_color: "#b5d668" # spicy sport pepper green
+  +docs:
+    node_color: "#b5d668" # spicy sport pepper green
 
 metrics:
-  node_color: "#ede5d2" # chili dog red brown
+  +docs:
+    node_color: "#ede5d2" # chili dog red brown
   
 exposures:
-  node_color: "#ede5d2" # onion white
+  +docs:
+    node_color: "#ede5d2" # onion white
   
