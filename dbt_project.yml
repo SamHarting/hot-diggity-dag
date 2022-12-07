@@ -1,5 +1,5 @@
 name: 'hot_diggity_dag'
-version: 'hotdog 1.0'
+version: '1.0.0' # Real version is Hotdog 1.0
 config-version: 2
 
 # This setting configures which "profile" dbt uses for this project. 
