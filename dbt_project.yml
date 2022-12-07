@@ -6,10 +6,10 @@ config-version: 2
 # In dbt Cloud IDE, this field is unused.
 profile: 'joey-chestnut'
 
-source-paths: ["models"]
+model-paths: ["models"]
 analysis-paths: ["analysis"]
 test-paths: ["tests"]
-data-paths: ["data"]
+seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 
