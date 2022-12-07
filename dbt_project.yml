@@ -33,7 +33,7 @@ sources:
 tests:
   node_color: "#a57f01" # relish green
   
-analysis:
+analyses:
   node_color: "#b5d668" # spicy sport pepper green
 
 metrics:
