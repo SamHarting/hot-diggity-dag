@@ -17,3 +17,36 @@ target-path: "target"
 clean-targets:         
     - "target"
     - "dbt_modules"
+
+seeds:
+  +docs:
+    node_color: "#e1ad01" # mustard yellow
+
+models:
+  +docs:
+    node_color: "#995f4c" # butter dog brown
+      
+snapshots:
+  +docs:
+    node_color: "#cc2522" # ketchup red
+  
+sources:
+  +docs:
+    node_color: "#ede5d2" # hotdog bun gold
+  
+tests:
+  +docs:
+    node_color: "#a57f01" # relish green
+  
+analyses:
+  +docs:
+    node_color: "#b5d668" # spicy sport pepper green
+
+metrics:
+  +docs:
+    node_color: "#ede5d2" # chili dog red brown
+  
+exposures:
+  +docs:
+    node_color: "#ede5d2" # onion white
+  
